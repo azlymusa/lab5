@@ -1,0 +1,62 @@
+
+What we have learned previously:-
+
+1. Basic client-server on TCP  
+	- Program represents the client-side
+	- Program represent the server-side
+	- As of now: localhost
+	
+2. Stream - java.io
+ 
+3. Classes for TCP application
+	- Socket: client-side app & server-side app
+	- ServerSocket: server-side app
+	- InetAddress: client-side app & server-side app 
+	
+4. Classes to allow data to be exchange between client & server sides
+	- InputStream - abstract class
+	- OutputStream - abstract class
+	
+	InputStream
+	- read( ): int
+	- read (byte, offset, length)
+	
+	OutputStream 
+	- write(int)
+	- write (byte [])
+	
+What are we going to learn this week.
+1. More on streams  - Data stream, Object stream, - TCP
+	- int, double, float, char, boolean: primitive data
+	- Object data: Book, ArrayList, etc
+	
+	- Primitive data: DataInputStream, DataOutputStream
+	- Object data: ObjectInputStream, ObjectOutputStream
+	 
+2. Object serialization - flatten the object
+	implements Serializable
+
+Two kinds of protocol - 
+	- TCP (Transmission Control Protocol)  
+	- UDP (User Datagram Protocol) 
+
+2. DatagramPacket, DatagramSocket - java.net
+	- data send/received in packet -> datagram
+	- DatagramSocket: to send/receive datagram
+	- DatagramPacket: where the data sits in
+	
+	- DatagramSocket: to be used at client/server side
+	- DatagramPacket: to be used at client/server side
+	
+3. UDP: streaming application, Skype, Zoom
+ 	- slight data loss is tolerable 
+	
+
+
+
+
+
+
+
+
+
